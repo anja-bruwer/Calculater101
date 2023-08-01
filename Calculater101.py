@@ -14,7 +14,7 @@ while True:
 
    ch = int(input())
 
-   if ch>1 and ch<4:
+   if ch>=1 and ch<=4:
       print("\nEnter Two Numbers: ", end="")
       numOne = float(input())
       numTwo = float(input())
